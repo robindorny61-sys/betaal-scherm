@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Betaalscherm</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 40px 20px;
+      background-color: #f9f9f9;
+    }
+    h1 {
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+    .reader-box {
+      border: 3px dashed #999;
+      border-radius: 10px;
+      padding: 40px;
+      background: #fff;
+      margin-bottom: 30px;
+      font-size: 20px;
+    }
+    .reader-box::before {
+      content: "📱💳";
+      font-size: 40px;
+      display: block;
+      margin-bottom: 10px;
+    }
+    .card-logos {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+    .card-logos img {
+      height: 40px;
+    }
+    p {
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <h1>📡 Houd uw kaart tegen de lezer</h1>
+  <div class="reader-box">
+    Betaling wordt verwerkt...
+  </div>
+
+  <div class="card-logos">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/0/04/Visa.svg" alt="Visa">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/0/04/Mastercard-logo.png" alt="Mastercard">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Maestro_2016.svg" alt="Maestro">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/3/30/Ideal_logo.png" alt="iDEAL">
+  </div>
+
+  <p>Bedankt voor uw aankoop!</p>
+</body>
+</html>
